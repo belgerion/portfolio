@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jeffrey Barnes Portfolio</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="title-logo" src="images/trident.png" alt="Trident Logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Jeffrey Barnes</h1>
+          <h4>Front-end Web Developer</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive img-rounded modal-content" src="images/coral_reef.jpg" alt="Coral Reef image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive img-rounded modal-content" src="images/pastel_ocean.jpg" alt="Sunset over the ocean" data-toggle="modal" data-target="#resume">
+          <h3 class="text-uppercase">Resume</h3>
+          <p><a href="http://www.github.com/belgerion">http://www.github.com/belgerion</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive img-rounded modal-content" src="images/beach.jpg" alt="Waves on a rockey beach" data-toggle="modal" data-target="#game">
+          <h3 class="text-uppercase">Frogger Game</h3>
+          <p><a href="http://www.github.com/belgerion">http://www.github.com/belgerion</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive img-rounded modal-content" src="images/volcano_lightning.jpeg" alt="Lightning striking an erupting volcano" data-toggle="modal" data-target="#map">
+          <h3 class="text-uppercase">Neighborhood Map</h3>
+          <p><a href="http://www.github.com/belgerion">http://www.github.com/belgerion</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="inter-resume">Resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-rounded modal-content" src="images/pastel_ocean.jpg" alt="Sunset over the ocean">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="game" tabindex="-1" role="dialog" aria-labelledby="game" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="frogger-game">Frogger Game</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-rounded modal-content" src="images/beach.jpg" alt="Waves on a rockey beach">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="map" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="neighbor-map">Neighborhood Map</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive img-rounded modal-content" src="images/volcano_lightning.jpeg" alt="Lightning striking an erupting volcano">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+            Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
