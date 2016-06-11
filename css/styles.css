@@ -2,6 +2,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: #31475c;
 	font-weight: 300;
+	background-color:#333333;
 }
 a {
 	color: #31475c;
@@ -32,4 +33,7 @@ h3 {
 .title-super{
 	font-size: 50px;
 	margin-top: 50px;
+}
+.container{
+  background-color: white;
 }
