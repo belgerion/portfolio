@@ -1,0 +1,39 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #31475c;
+	font-weight: 300;
+	background-color:#333333;
+}
+a {
+	color: #31475c;
+}
+hr {
+	border-top: 3px solid #1f6db6;
+}
+h3 {
+	color: #1f6db6;
+	font-size:30px;
+	font-weight: bold;
+}
+.img-rounded {
+	border-radius: 10px;
+}
+.text-muted {
+	font-weight: bold;
+	color: #31475c;
+}
+.text-thin {
+	font-weight: 100;
+}
+.title-logo{
+	margin-top: 20px;
+	width: 100px;
+	height: 124px;
+}
+.title-super{
+	font-size: 50px;
+	margin-top: 50px;
+}
+.container{
+  background-color: white;
+}
