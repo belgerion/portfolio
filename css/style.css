@@ -1,0 +1,63 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background : #4c516d;
+    color : black;
+	font-family: 'Jura', sans-serif;
+	
+}
+
+.hidden {
+	display: none;
+}
+.container {
+	background: white;	
+}
+
+.margin {
+	margin: 0 10px;
+}
+
+header {
+	text-align: right;
+}
+
+.headerText{
+	margin: 0 0 0 0;
+	
+}
+.navbar{
+	background: gray;
+	
+}
+
+.navbar>a {
+	color: white;
+}
+
+.articleTitle{
+	font-weight: bold;
+	font-size: 26px;
+}
+.frameWidth {
+	width: 510px;
+	height: 250px;
+}
+
+#post {
+	padding: 0 20px;
+}
+
+.postEntry {
+	border: 1px solid black;
+}
+.centerText {
+	text-align: center;
+}
+
+.col-lg-* {
+	font-size: 35px;
+}
