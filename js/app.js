@@ -26,8 +26,7 @@
 			'date': 'July 23, 2018',
 			'content': "This is my first blog entry for this website. It is was designed to be powered by JavaScript, pulling an object and adding that to the HTML of the website. I am planning on adding a new post twice a week, covering things I've learned or discovered, or anything that I find curious related to web development and coding."
 		}
-		
-	]
+		]
 	};
 	
 	function displayBlog() {
