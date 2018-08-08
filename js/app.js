@@ -8,6 +8,18 @@
 	
 	var blog = {
 		'post': [
+		/*{
+			'title': '#',
+			'author': '#',
+			'date': '#',
+			'content': '#'
+		},*/
+		{
+			'title': 'New Project',
+			'author': 'Jeffrey Barnes',
+			'date': 'August 7,2018',
+			'content': "<p>One of the things I want to do is get better at coding in vanilla JavaScript. I've had an idea to create a game using HTML, CSS and JavaScript that will be playable on anything. This is something I've wanted to do for a while, so I started working on that when I need to take a break from learning TypeScript.</p><p>The game is based on a pen and paper roleplaying and tactical wargame called BattleTech. At least at this time it is. I've been playing this game for a while, mostly in it's video game incarnations, but I have toyed with the pen and paper version. There was recent release of a game by the people that created the original that I have enjoyed, but it lacks some features I want so I started working on my own.</p><p>This game will go through several stages. The first will be to have a simple arcade style game based on this title. It will use a random number generator to roll \"dice\" to determine hits and damage, thus remaining to true to the game. It will be playable on a randomly generated game board that will assign environmental variables as appropriate. Lastly, I want to add support for touch click using a touchscreen interface.</p><p>The second phase will add a means to save the current state of the game, allowing for the ability to play longterm games. I currently don't know the best way to do this in JavaScript, but I plan on trying to figure out if it's possible. Other features that I plan to include at this stage are additional variables to the hit and damage calculations that are drawn from the rules and additional units for both players to control, adding the tactical aspect.</p><p>The third stage that I have planned out is to add an A.I. to allow for a singleplayer, a means for the player to pick a starting force, and a random generator to create forces for both the player and the A.I.</p><p>Beyond what I have planned out, I have ideas for further expanding the game, but just being able to pick and use forces, keep track of stats, and the ability to play long term, I will be happy with what I have.</p>"
+		},
 		{
 			'title': 'Learning TypeScript',
 			'author': 'Jeffrey Barnes',
