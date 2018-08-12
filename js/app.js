@@ -12,7 +12,7 @@
 			'title': '#',
 			'author': '#',
 			'date': '#',
-			'content': '#'
+			'content': '#' forcing an update in the github commit 
 		},*/
 		{
 			'title': 'New Project',
