@@ -14,12 +14,6 @@
 			'date': '#',
 			'content': '#'
 		},*/
-          {
-            'title': 'Learning Overload',
-            'author': 'Jeffrey Barnes',
-            'date': 'August 11, 2018',
-            'content': 'This is a test to see if I can write and upload a blog post to Github from my Android phone.'
-          },
 		{
 			'title': 'New Project',
 			'author': 'Jeffrey Barnes',
