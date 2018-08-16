@@ -12,8 +12,14 @@
 			'title': '#',
 			'author': '#',
 			'date': '#',
-			'content': '#' forcing an update in the github commit 
+			'content': '#'
 		},*/
+        {
+			'title': 'Learning vs. Doing',
+			'author': 'Jeffrey Barnes',
+			'date': 'August 15, 2018',
+			'content': '<p>One of the things I figured out today, is that I still am dealing with imposter syndrome. The way I figured out that I am, is that I keep looking at job postings, and seeing skills I don\'t have. Then I start worrying about my skillset, and thinking I need to expand it. That\'s part of why I am working on learning React, Angular and TypeScript. But I also think I need to start putting what I know to use. The best way to further your skills is to use them, and I need to get better at vanilla JavaScript.</p><p>To that end, I am going to continue adding to my skillset, but my focus is going to be on finding jobs or projects I can work on. That will allow me find out what I need to learn. I believe in being a life-long learner, but at a certain point, I think that we have to put our skills to work.</p>'
+		},
 		{
 			'title': 'New Project',
 			'author': 'Jeffrey Barnes',
